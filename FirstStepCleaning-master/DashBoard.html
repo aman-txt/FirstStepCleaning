@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<!--
+Arcana by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Dashboard</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" / >
+        <style>
+
+            /* The sidebar menu */
+            .sidenav {
+                height: 100%; /* Full-height: remove this if you want "auto" height */
+                width: 250px; /* Set the width of the sidebar */
+                position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+                z-index: 1; /* Stay on top */
+                top: 220px; /* Stay at the top */
+                left: 0;
+                background-color: #333; /* Black */
+                background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("assets/css/images/bg01.png");
+                background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("assets/css/images/bg01.png");
+                background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("assets/css/images/bg01.png");
+                background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("assets/css/images/bg01.png");
+                padding: 0;
+                overflow-x: hidden; /* Disable horizontal scroll */
+                padding-top: 20px;
+            }
+
+            /* The navigation menu links */
+            .sidenav a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+            }
+
+            /* When you mouse over the navigation links, change their color */
+            .sidenav a:hover {
+                color: #f1f1f1;
+            }
+            #header{
+                position: fixed;
+                width: 100%;
+                z-index: 1; /* Stay on top */
+            }
+            #nav{
+                position: fixed;
+                width: 100%;
+                z-index: 1; /* Stay on top */
+            }
+
+            /* Style page content */
+            .main {
+                margin-left: 160px; /* Same as the width of the sidebar */
+                padding: 0px 10px;
+            }
+            #content{
+                top = 300px;
+/*                margin-left: 250px;*/
+                margin-top: 220px;
+            }
+            #footer{
+                margin-left: 250px;
+            }
+            /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+            @media screen and (max-height: 450px) {
+                .sidenav {padding-top: 15px;}
+                .sidenav a {font-size: 18px;}
+            }    
+        </style>
+    </head>
+    <body class="is-preload">
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <div id="header">
+
+                <!-- Logo -->
+                <h1><a href="index.html" id="logo">Arcana <em>by HTML5 UP</em></a></h1>
+
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="#">Dropdown</a>
+                            <ul>
+                                <li><a href="#">Lorem dolor</a></li>
+                                <li><a href="#">Magna phasellus</a></li>
+                                <li><a href="#">Etiam sed tempus</a></li>
+                                <li>
+                                    <a href="#">Submenu</a>
+                                    <ul>
+                                        <li><a href="#">Lorem dolor</a></li>
+                                        <li><a href="#">Phasellus magna</a></li>
+                                        <li><a href="#">Magna phasellus</a></li>
+                                        <li><a href="#">Etiam nisl</a></li>
+                                        <li><a href="#">Veroeros feugiat</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Veroeros feugiat</a></li>
+                            </ul>
+                        </li>
+                        <li class="current"><a href="left-sidebar.html">Left Sidebar</a></li>
+                        <li><a href="right-sidebar.html">Right Sidebar</a></li>
+                        <li><a href="two-sidebar.html">Two Sidebar</a></li>
+                        <li><a href="no-sidebar.html">No Sidebar</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <!-- Main -->
+            <section class="wrapper style1">
+                <div class="container">
+                    <div class="row gtr-200">
+                        <div class="col-4 col-12-narrower">
+                            <div id="sidebar">
+
+                                <!-- Sidebar -->
+
+                                <section>
+                                    <!-- Side navigation -->
+                                    <div class="sidenav">
+                                        <a href="DashBoard.html">Dashboard</a>
+                                        <a href="Bookings.html">Bookings</a>
+                                        <a href="History.html">History</a>
+                                        <a href="Offers.html">Offers</a>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-8  col-12-narrower imp-narrower">
+                            <div id="content">
+
+                                <!-- Content -->
+
+                                <article>
+                                    
+                                </article>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <div id="footer">
+                <!-- Icons -->
+                <ul class="icons">
+                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+                </ul>
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    <ul class="menu">
+                        <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
